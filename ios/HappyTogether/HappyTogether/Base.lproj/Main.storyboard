@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bLW-X5-KI6">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="8R0-qj-X0Q">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="bLW-X5-KI6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ibv-T5-7jy">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6Td-ki-Wlt" kind="relationship" relationship="rootViewController" id="7lu-c7-KMh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0X6-bd-DXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-93" y="179"/>
+        </scene>
+        <!--View Controller - Happy Together-->
+        <scene sceneID="TQN-kl-ME6">
+            <objects>
+                <viewController title="Happy Together" id="6Td-ki-Wlt" customClass="HOLViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tKg-6j-fFC"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Gq-nZ-77d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aHK-eQ-RUS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c1m-gU-jna">
+                                <rect key="frame" x="0.0" y="64" width="320" height="320"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="BoR-Tn-V83"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="8pW-bb-BJZ">
+                                <rect key="frame" x="0.0" y="384" width="320" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="8pW-bb-BJZ" firstAttribute="leading" secondItem="aHK-eQ-RUS" secondAttribute="leading" id="5z2-fT-GYf"/>
+                            <constraint firstItem="c1m-gU-jna" firstAttribute="top" secondItem="tKg-6j-fFC" secondAttribute="bottom" id="97D-1N-zD6"/>
+                            <constraint firstItem="9Gq-nZ-77d" firstAttribute="top" secondItem="8pW-bb-BJZ" secondAttribute="bottom" id="DqE-vm-HDH"/>
+                            <constraint firstItem="c1m-gU-jna" firstAttribute="leading" secondItem="aHK-eQ-RUS" secondAttribute="leading" id="gxA-BD-7DU"/>
+                            <constraint firstAttribute="trailing" secondItem="8pW-bb-BJZ" secondAttribute="trailing" id="hT1-TZ-agB"/>
+                            <constraint firstItem="8pW-bb-BJZ" firstAttribute="top" secondItem="c1m-gU-jna" secondAttribute="bottom" id="knN-ZM-rVs"/>
+                            <constraint firstAttribute="trailing" secondItem="c1m-gU-jna" secondAttribute="trailing" id="yqf-6d-h4Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Happy Together" id="82A-Yi-ASx"/>
+                    <connections>
+                        <outlet property="imageView" destination="c1m-gU-jna" id="OBU-Dx-UlL"/>
+                        <outlet property="label" destination="8pW-bb-BJZ" id="AjM-rp-0jP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ddY-zB-eH2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="353" y="179"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

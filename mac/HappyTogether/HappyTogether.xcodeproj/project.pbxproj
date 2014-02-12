@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8C524AD18AAAE710034CFF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C524AC18AAAE710034CFF1 /* Cocoa.framework */; };
+		C8C524B718AAAE710034CFF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C524B518AAAE710034CFF1 /* InfoPlist.strings */; };
+		C8C524B918AAAE710034CFF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524B818AAAE710034CFF1 /* main.m */; };
+		C8C524BD18AAAE710034CFF1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C8C524BB18AAAE710034CFF1 /* Credits.rtf */; };
+		C8C524C018AAAE710034CFF1 /* HOLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524BF18AAAE710034CFF1 /* HOLAppDelegate.m */; };
+		C8C524C318AAAE710034CFF1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C524C118AAAE710034CFF1 /* MainMenu.xib */; };
+		C8C524C518AAAE710034CFF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C524C418AAAE710034CFF1 /* Images.xcassets */; };
+		C8C524CC18AAAE710034CFF1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C524CB18AAAE710034CFF1 /* XCTest.framework */; };
+		C8C524CD18AAAE710034CFF1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C524AC18AAAE710034CFF1 /* Cocoa.framework */; };
+		C8C524D518AAAE710034CFF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8C524D318AAAE710034CFF1 /* InfoPlist.strings */; };
+		C8C524D718AAAE710034CFF1 /* HappyTogetherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524D618AAAE710034CFF1 /* HappyTogetherTests.m */; };
+		C8C524E218AAB00C0034CFF1 /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C524E018AAB00C0034CFF1 /* Status.png */; };
+		C8C524E318AAB00C0034CFF1 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C524E118AAB00C0034CFF1 /* Status@2x.png */; };
+		C8C524E618AAB0380034CFF1 /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C524E418AAB0380034CFF1 /* StatusHighlighted.png */; };
+		C8C524E718AAB0380034CFF1 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C524E518AAB0380034CFF1 /* StatusHighlighted@2x.png */; };
+		C8C524EA18AAB15B0034CFF1 /* HOLStatusItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524E918AAB15B0034CFF1 /* HOLStatusItemController.m */; };
+		C8C524EE18AAB6C40034CFF1 /* HOLSocketServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524ED18AAB6C40034CFF1 /* HOLSocketServerManager.m */; };
+		C8C524F518AABA120034CFF1 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524F218AABA120034CFF1 /* GCDAsyncSocket.m */; };
+		C8C524F618AABA120034CFF1 /* MBWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524F418AABA120034CFF1 /* MBWebSocketServer.m */; };
+		C8C524F918AABAC80034CFF1 /* HOLApplescriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C524F818AABAC80034CFF1 /* HOLApplescriptManager.m */; };
+		C8C524FB18AABC8A0034CFF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C524FA18AABC8A0034CFF1 /* Security.framework */; };
+		C8C524FE18AAC1300034CFF1 /* itunesPlay.applescript in Sources */ = {isa = PBXBuildFile; fileRef = C8C524FC18AAC1300034CFF1 /* itunesPlay.applescript */; };
+		C8C524FF18AAC1300034CFF1 /* itunesPause.applescript in Sources */ = {isa = PBXBuildFile; fileRef = C8C524FD18AAC1300034CFF1 /* itunesPause.applescript */; };
+		C8C5250218AAC2B40034CFF1 /* itunesPlay.applescript in Resources */ = {isa = PBXBuildFile; fileRef = C8C524FC18AAC1300034CFF1 /* itunesPlay.applescript */; };
+		C8C5250318AAC2B40034CFF1 /* itunesPause.applescript in Resources */ = {isa = PBXBuildFile; fileRef = C8C524FD18AAC1300034CFF1 /* itunesPause.applescript */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8C524CE18AAAE710034CFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8C524A118AAAE710034CFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C524A818AAAE710034CFF1;
+			remoteInfo = HappyTogether;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8C524A918AAAE710034CFF1 /* HappyTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C524AC18AAAE710034CFF1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C8C524AF18AAAE710034CFF1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C8C524B018AAAE710034CFF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C8C524B118AAAE710034CFF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8C524B418AAAE710034CFF1 /* HappyTogether-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyTogether-Info.plist"; sourceTree = "<group>"; };
+		C8C524B618AAAE710034CFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8C524B818AAAE710034CFF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8C524BA18AAAE710034CFF1 /* HappyTogether-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyTogether-Prefix.pch"; sourceTree = "<group>"; };
+		C8C524BC18AAAE710034CFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C8C524BE18AAAE710034CFF1 /* HOLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOLAppDelegate.h; sourceTree = "<group>"; };
+		C8C524BF18AAAE710034CFF1 /* HOLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOLAppDelegate.m; sourceTree = "<group>"; };
+		C8C524C218AAAE710034CFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C8C524C418AAAE710034CFF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8C524CA18AAAE710034CFF1 /* HappyTogetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyTogetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C524CB18AAAE710034CFF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C8C524D218AAAE710034CFF1 /* HappyTogetherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyTogetherTests-Info.plist"; sourceTree = "<group>"; };
+		C8C524D418AAAE710034CFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C8C524D618AAAE710034CFF1 /* HappyTogetherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyTogetherTests.m; sourceTree = "<group>"; };
+		C8C524E018AAB00C0034CFF1 /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
+		C8C524E118AAB00C0034CFF1 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
+		C8C524E418AAB0380034CFF1 /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
+		C8C524E518AAB0380034CFF1 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
+		C8C524E818AAB15B0034CFF1 /* HOLStatusItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOLStatusItemController.h; sourceTree = "<group>"; };
+		C8C524E918AAB15B0034CFF1 /* HOLStatusItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOLStatusItemController.m; sourceTree = "<group>"; };
+		C8C524EC18AAB6C40034CFF1 /* HOLSocketServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOLSocketServerManager.h; sourceTree = "<group>"; };
+		C8C524ED18AAB6C40034CFF1 /* HOLSocketServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOLSocketServerManager.m; sourceTree = "<group>"; };
+		C8C524F118AABA120034CFF1 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C8C524F218AABA120034CFF1 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C8C524F318AABA120034CFF1 /* MBWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBWebSocketServer.h; sourceTree = "<group>"; };
+		C8C524F418AABA120034CFF1 /* MBWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBWebSocketServer.m; sourceTree = "<group>"; };
+		C8C524F718AABAC80034CFF1 /* HOLApplescriptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOLApplescriptManager.h; sourceTree = "<group>"; };
+		C8C524F818AABAC80034CFF1 /* HOLApplescriptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOLApplescriptManager.m; sourceTree = "<group>"; };
+		C8C524FA18AABC8A0034CFF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C8C524FC18AAC1300034CFF1 /* itunesPlay.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = itunesPlay.applescript; sourceTree = "<group>"; };
+		C8C524FD18AAC1300034CFF1 /* itunesPause.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = itunesPause.applescript; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8C524A618AAAE710034CFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C524FB18AABC8A0034CFF1 /* Security.framework in Frameworks */,
+				C8C524AD18AAAE710034CFF1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C524C718AAAE710034CFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C524CD18AAAE710034CFF1 /* Cocoa.framework in Frameworks */,
+				C8C524CC18AAAE710034CFF1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8C524A018AAAE710034CFF1 = {
+			isa = PBXGroup;
+			children = (
+				C8C524B218AAAE710034CFF1 /* HappyTogether */,
+				C8C524D018AAAE710034CFF1 /* HappyTogetherTests */,
+				C8C524AB18AAAE710034CFF1 /* Frameworks */,
+				C8C524AA18AAAE710034CFF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8C524AA18AAAE710034CFF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524A918AAAE710034CFF1 /* HappyTogether.app */,
+				C8C524CA18AAAE710034CFF1 /* HappyTogetherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8C524AB18AAAE710034CFF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524FA18AABC8A0034CFF1 /* Security.framework */,
+				C8C524AC18AAAE710034CFF1 /* Cocoa.framework */,
+				C8C524CB18AAAE710034CFF1 /* XCTest.framework */,
+				C8C524AE18AAAE710034CFF1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C524AE18AAAE710034CFF1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524AF18AAAE710034CFF1 /* AppKit.framework */,
+				C8C524B018AAAE710034CFF1 /* CoreData.framework */,
+				C8C524B118AAAE710034CFF1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C8C524B218AAAE710034CFF1 /* HappyTogether */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524BE18AAAE710034CFF1 /* HOLAppDelegate.h */,
+				C8C524BF18AAAE710034CFF1 /* HOLAppDelegate.m */,
+				C8C524E818AAB15B0034CFF1 /* HOLStatusItemController.h */,
+				C8C524E918AAB15B0034CFF1 /* HOLStatusItemController.m */,
+				C8C524EC18AAB6C40034CFF1 /* HOLSocketServerManager.h */,
+				C8C524ED18AAB6C40034CFF1 /* HOLSocketServerManager.m */,
+				C8C524F718AABAC80034CFF1 /* HOLApplescriptManager.h */,
+				C8C524F818AABAC80034CFF1 /* HOLApplescriptManager.m */,
+				C8C5250018AAC1330034CFF1 /* Applescript */,
+				C8C524EF18AAB9EF0034CFF1 /* Libraries */,
+				C8C5250118AAC1430034CFF1 /* Xibs */,
+				C8C524EB18AAB6350034CFF1 /* Images */,
+				C8C524C418AAAE710034CFF1 /* Images.xcassets */,
+				C8C524B318AAAE710034CFF1 /* Supporting Files */,
+			);
+			path = HappyTogether;
+			sourceTree = "<group>";
+		};
+		C8C524B318AAAE710034CFF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524B418AAAE710034CFF1 /* HappyTogether-Info.plist */,
+				C8C524B518AAAE710034CFF1 /* InfoPlist.strings */,
+				C8C524B818AAAE710034CFF1 /* main.m */,
+				C8C524BA18AAAE710034CFF1 /* HappyTogether-Prefix.pch */,
+				C8C524BB18AAAE710034CFF1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8C524D018AAAE710034CFF1 /* HappyTogetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524D618AAAE710034CFF1 /* HappyTogetherTests.m */,
+				C8C524D118AAAE710034CFF1 /* Supporting Files */,
+			);
+			path = HappyTogetherTests;
+			sourceTree = "<group>";
+		};
+		C8C524D118AAAE710034CFF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524D218AAAE710034CFF1 /* HappyTogetherTests-Info.plist */,
+				C8C524D318AAAE710034CFF1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8C524EB18AAB6350034CFF1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524E018AAB00C0034CFF1 /* Status.png */,
+				C8C524E118AAB00C0034CFF1 /* Status@2x.png */,
+				C8C524E418AAB0380034CFF1 /* StatusHighlighted.png */,
+				C8C524E518AAB0380034CFF1 /* StatusHighlighted@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C8C524EF18AAB9EF0034CFF1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524F018AAB9F80034CFF1 /* MBWebSocketServer */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		C8C524F018AAB9F80034CFF1 /* MBWebSocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524F118AABA120034CFF1 /* GCDAsyncSocket.h */,
+				C8C524F218AABA120034CFF1 /* GCDAsyncSocket.m */,
+				C8C524F318AABA120034CFF1 /* MBWebSocketServer.h */,
+				C8C524F418AABA120034CFF1 /* MBWebSocketServer.m */,
+			);
+			name = MBWebSocketServer;
+			sourceTree = "<group>";
+		};
+		C8C5250018AAC1330034CFF1 /* Applescript */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524FC18AAC1300034CFF1 /* itunesPlay.applescript */,
+				C8C524FD18AAC1300034CFF1 /* itunesPause.applescript */,
+			);
+			name = Applescript;
+			sourceTree = "<group>";
+		};
+		C8C5250118AAC1430034CFF1 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C8C524C118AAAE710034CFF1 /* MainMenu.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8C524A818AAAE710034CFF1 /* HappyTogether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C524DA18AAAE710034CFF1 /* Build configuration list for PBXNativeTarget "HappyTogether" */;
+			buildPhases = (
+				C8C524A518AAAE710034CFF1 /* Sources */,
+				C8C524A618AAAE710034CFF1 /* Frameworks */,
+				C8C524A718AAAE710034CFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyTogether;
+			productName = HappyTogether;
+			productReference = C8C524A918AAAE710034CFF1 /* HappyTogether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8C524C918AAAE710034CFF1 /* HappyTogetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8C524DD18AAAE710034CFF1 /* Build configuration list for PBXNativeTarget "HappyTogetherTests" */;
+			buildPhases = (
+				C8C524C618AAAE710034CFF1 /* Sources */,
+				C8C524C718AAAE710034CFF1 /* Frameworks */,
+				C8C524C818AAAE710034CFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8C524CF18AAAE710034CFF1 /* PBXTargetDependency */,
+			);
+			name = HappyTogetherTests;
+			productName = HappyTogetherTests;
+			productReference = C8C524CA18AAAE710034CFF1 /* HappyTogetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8C524A118AAAE710034CFF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HOL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Josh Clark & Larry Legend";
+				TargetAttributes = {
+					C8C524C918AAAE710034CFF1 = {
+						TestTargetID = C8C524A818AAAE710034CFF1;
+					};
+				};
+			};
+			buildConfigurationList = C8C524A418AAAE710034CFF1 /* Build configuration list for PBXProject "HappyTogether" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8C524A018AAAE710034CFF1;
+			productRefGroup = C8C524AA18AAAE710034CFF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C524A818AAAE710034CFF1 /* HappyTogether */,
+				C8C524C918AAAE710034CFF1 /* HappyTogetherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8C524A718AAAE710034CFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C5250218AAC2B40034CFF1 /* itunesPlay.applescript in Resources */,
+				C8C5250318AAC2B40034CFF1 /* itunesPause.applescript in Resources */,
+				C8C524B718AAAE710034CFF1 /* InfoPlist.strings in Resources */,
+				C8C524C518AAAE710034CFF1 /* Images.xcassets in Resources */,
+				C8C524E718AAB0380034CFF1 /* StatusHighlighted@2x.png in Resources */,
+				C8C524E318AAB00C0034CFF1 /* Status@2x.png in Resources */,
+				C8C524BD18AAAE710034CFF1 /* Credits.rtf in Resources */,
+				C8C524E218AAB00C0034CFF1 /* Status.png in Resources */,
+				C8C524E618AAB0380034CFF1 /* StatusHighlighted.png in Resources */,
+				C8C524C318AAAE710034CFF1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C524C818AAAE710034CFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C524D518AAAE710034CFF1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8C524A518AAAE710034CFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C524FF18AAC1300034CFF1 /* itunesPause.applescript in Sources */,
+				C8C524EA18AAB15B0034CFF1 /* HOLStatusItemController.m in Sources */,
+				C8C524FE18AAC1300034CFF1 /* itunesPlay.applescript in Sources */,
+				C8C524F918AABAC80034CFF1 /* HOLApplescriptManager.m in Sources */,
+				C8C524F618AABA120034CFF1 /* MBWebSocketServer.m in Sources */,
+				C8C524F518AABA120034CFF1 /* GCDAsyncSocket.m in Sources */,
+				C8C524EE18AAB6C40034CFF1 /* HOLSocketServerManager.m in Sources */,
+				C8C524C018AAAE710034CFF1 /* HOLAppDelegate.m in Sources */,
+				C8C524B918AAAE710034CFF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C524C618AAAE710034CFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C524D718AAAE710034CFF1 /* HappyTogetherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8C524CF18AAAE710034CFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8C524A818AAAE710034CFF1 /* HappyTogether */;
+			targetProxy = C8C524CE18AAAE710034CFF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8C524B518AAAE710034CFF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C524B618AAAE710034CFF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C8C524BB18AAAE710034CFF1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C524BC18AAAE710034CFF1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C8C524C118AAAE710034CFF1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C524C218AAAE710034CFF1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C8C524D318AAAE710034CFF1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8C524D418AAAE710034CFF1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8C524D818AAAE710034CFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C8C524D918AAAE710034CFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C8C524DB18AAAE710034CFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyTogether/HappyTogether-Prefix.pch";
+				INFOPLIST_FILE = "HappyTogether/HappyTogether-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C8C524DC18AAAE710034CFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyTogether/HappyTogether-Prefix.pch";
+				INFOPLIST_FILE = "HappyTogether/HappyTogether-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C8C524DE18AAAE710034CFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HappyTogether.app/Contents/MacOS/HappyTogether";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyTogether/HappyTogether-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HappyTogetherTests/HappyTogetherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C8C524DF18AAAE710034CFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HappyTogether.app/Contents/MacOS/HappyTogether";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyTogether/HappyTogether-Prefix.pch";
+				INFOPLIST_FILE = "HappyTogetherTests/HappyTogetherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8C524A418AAAE710034CFF1 /* Build configuration list for PBXProject "HappyTogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C524D818AAAE710034CFF1 /* Debug */,
+				C8C524D918AAAE710034CFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C524DA18AAAE710034CFF1 /* Build configuration list for PBXNativeTarget "HappyTogether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C524DB18AAAE710034CFF1 /* Debug */,
+				C8C524DC18AAAE710034CFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8C524DD18AAAE710034CFF1 /* Build configuration list for PBXNativeTarget "HappyTogetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8C524DE18AAAE710034CFF1 /* Debug */,
+				C8C524DF18AAAE710034CFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8C524A118AAAE710034CFF1 /* Project object */;
+}

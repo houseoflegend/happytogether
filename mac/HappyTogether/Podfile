@@ -1,0 +1,4 @@
+platform :osx
+
+pod 'MBWebSocketServer', '0.0.1'
+
