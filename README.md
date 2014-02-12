@@ -1,6 +1,11 @@
 Happy Together
 ==============
 
+Happy Together is an experiment in making gadgets play nice. This prototype allows you to tap music from iPhone to Mac.
+
+Interaction: Josh Clark (@globalmoxie
+Code: Larry Legend (@larrylegend)
+
 Requirements:
 
 - Be registered with Apple's iOS Developer Program (in order to install the app on your device)
