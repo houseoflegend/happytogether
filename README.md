@@ -3,7 +3,7 @@ Happy Together
 
 Happy Together is an experiment in making gadgets play nice. This prototype allows you to tap music from iPhone to Mac.
 
-Interaction: Josh Clark (@globalmoxie)
+Interaction: Josh Clark (@globalmoxie)  
 Code: Larry Legend (@larrylegend)
 
 Requirements:
