@@ -87,9 +87,9 @@
 
 - (void)webSocket:(SRWebSocket *)webSocket didFailWithError:(NSError *)error
 {
-    NSLog(@"Websocket Failed With Error %@", error);
+    NSLog(@"Websocket Failed. Make sure the Mac server app is running before launching the iOS app, and the IP address of the server is configured correctly. Error: %@", error);
     self.webSocket = nil;
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Websocket Failed" message:[error description] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Websocket Failed" message:[NSString stringWithFormat:@"Websocket Failed. Make sure the Mac server app is running before launching the iOS app, and the IP address of the server is configured correctly. %@", [error debugDescription]] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [alert show];
 }
 
